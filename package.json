@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/denizsokullu/dominion-stats-watcher#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "puppeteer": "^13.2.0"
   }
 }

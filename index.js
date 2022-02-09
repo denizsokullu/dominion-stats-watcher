@@ -1,3 +1,4 @@
+require('dotenv').config();
 const puppeteer = require('puppeteer');
 
 async function run () {
@@ -11,7 +12,7 @@ async function run () {
     await page.waitForTimeout(2000);
 
     await page.type('#username-input', 'dominionstatswatcher');
-    await page.type(`input[type='password']`, ''); // get password from ENV
+    await page.type(`input[type='password']`, process.env.DOMINION_USER_PW); // get password from ENV
     await page.click(`input[value='Login']`);
 
     await page.waitForTimeout(2000);
