@@ -1,0 +1,25 @@
+{
+  "name": "dominion-stats-watcher",
+  "version": "0.1.0",
+  "description": "A bot that watches your dominion games and stores stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizsokullu/dominion-stats-watcher.git"
+  },
+  "keywords": [
+    "dominion"
+  ],
+  "author": "Deniz Sokullu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denizsokullu/dominion-stats-watcher/issues"
+  },
+  "homepage": "https://github.com/denizsokullu/dominion-stats-watcher#readme",
+  "dependencies": {
+    "puppeteer": "^13.2.0"
+  }
+}
